@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_responsibility_responsibilities",
+  "info": {
+    "name": "responsibility",
+    "icon": "user-tie"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
