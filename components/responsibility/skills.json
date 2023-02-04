@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_responsibility_skills",
+  "info": {
+    "name": "Skills",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Skills": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
