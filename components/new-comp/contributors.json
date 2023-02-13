@@ -2,8 +2,16 @@
   "collectionName": "components_new_comp_contributors",
   "info": {
     "name": "contributors",
-    "icon": "arrow-circle-left"
+    "icon": "arrow-circle-left",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
 }
