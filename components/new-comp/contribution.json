@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_new_comp_contributions",
+  "info": {
+    "name": "contribution",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "contribution_name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

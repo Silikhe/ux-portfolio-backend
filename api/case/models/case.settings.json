@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "name": "case"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project_type": {
+      "type": "string",
+      "required": true
+    },
+    "project_name": {
+      "type": "string",
+      "required": true
+    },
+    "project_cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "individual_contribution": {
+      "type": "text"
+    },
+    "contribution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "new-comp.contribution"
+    },
+    "about_client": {
+      "type": "text"
+    },
+    "design_challenge": {
+      "type": "text"
+    },
+    "contributors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "new-comp.contributors"
+    },
+    "case_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
